@@ -1,6 +1,6 @@
-# Tech Challenge — Fase 1 FIAP
+# Previsão de Churn em Telecomunicações com Rede Neural (MLP)
 
-## Previsão de Churn em Telecomunicações com Rede Neural (MLP)
+> Projeto desenvolvido na Pós Tech em Machine Learning Engineering (FIAP), como Tech Challenge da Fase 1.
 
 Pipeline end-to-end de Machine Learning para prever churn de clientes
 de uma operadora de telecomunicações, utilizando MLP (Multi-Layer Perceptron)
@@ -26,7 +26,7 @@ clientes em risco de churn.
 
 ## Estrutura do Projeto
 
-    tech-challenge-fase1/
+    telco-churn-mlp/
     ├── src/
     │   ├── data/preprocessing.py       # Pipeline de pré-processamento
     │   ├── models/mlp.py               # Arquitetura MLP PyTorch
@@ -53,16 +53,16 @@ clientes em risco de churn.
 
 **Mac/Linux:**
 
-    git clone https://github.com/rafaneder-maiorino/tech-challenge-fase1.git
-    cd tech-challenge-fase1
+    git clone https://github.com/rafaneder-maiorino/telco-churn-mlp.git
+    cd telco-churn-mlp
     python3 -m venv venv
     source venv/bin/activate
     pip install -e ".[dev]"
 
 **Windows:**
 
-    git clone https://github.com/rafaneder-maiorino/tech-challenge-fase1.git
-    cd tech-challenge-fase1
+    git clone https://github.com/rafaneder-maiorino/telco-churn-mlp.git
+    cd telco-churn-mlp
     python -m venv venv
     venv\Scripts\activate
     pip install -e ".[dev]"
